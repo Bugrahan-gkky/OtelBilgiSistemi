@@ -29,7 +29,7 @@ public class Musteri {
     }
 
     public void setTelefon(String telefon){
-        if(telefon != null&&telefon.matches("[0-9+]{8.20}")){
+        if(telefon != null&&telefon.matches("[0-9+]{8,20}")){
             this.telefon=telefon;
         }else{
             System.out.println("⚠ Geçersiz telefon. 'bilinmiyor' atandı.");
