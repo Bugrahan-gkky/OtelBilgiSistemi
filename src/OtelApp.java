@@ -227,7 +227,7 @@ public class OtelApp {
         odalar.add(new SuiteOda(202, 2, 4, false, 24));
 
         // Örnek müşteriler
-        musteriler.add(new Musteri("Ferhat Uçar", "fucar@firat.edu.tr", "+90 5xx xxx xx xx"));
+        musteriler.add(new Musteri("Buğrahan Gökkaya", "bugrahangokkaya19@gmail.com", "+90 5xx xxx xx xx"));
         musteriler.add(new Musteri("Ayşe Demir", "ayse@mail.com", "0532 000 00 00"));
         musteriler.add(new Musteri("Mehmet Kaya", "gecersizemail", "ABC")); // uyarı üretir
     }
